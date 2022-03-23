@@ -1,0 +1,9 @@
+{
+    "environments": {
+        "default": {
+            "profile": "demo",
+            "workspace_dir": "/Shared/dbx/leclub3prj",
+            "artifact_location": "dbfs:/Users/dbx/projects/leclub3prj"
+        }
+    }
+}
