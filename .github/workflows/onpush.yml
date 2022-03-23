@@ -36,11 +36,7 @@ jobs:
           pip install -r requirements.txt
           pip install -e .
 
-      - name: Lint
-        run: |
-          prospector  --with-tool mypy  --profile prospector.yaml
-          black --check leclub3pkg
-          black --check tests
+
 
       - name: Run unit tests
         run: |
